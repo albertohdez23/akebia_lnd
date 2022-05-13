@@ -1,5 +1,5 @@
 body{
-    background-color: white;
+    background-color: rgb(124, 180, 111);
     color: black;
     text-align: justify;
     font-size: 18px;
@@ -10,31 +10,65 @@ body{
 
 .header{
     border-color: black;
+    background-color: white;
     border-width: 2px;
     border-style: solid;
     text-align: center;
 }
 
-.leftH{
-    text-align: left;
-    margin-left: 20px;
+#contenedor {
+    display: table;
+    width: 333px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 1%;
+    margin-bottom: 1%;
 }
 
-.rightH{
-    text-align: right;
-    margin-right: 20px;
+#contenidos {
+    display: table-row;
+}
+
+#columna1{
+    display: table-cell;
+    vertical-align: middle;
+    align-items: left;
+}
+
+#columna2{
+    display: table-cell;
+    vertical-align: middle;
+}
+
+#columna3 {
+    display: table-cell;
+    vertical-align: middle;
+    align-items: right;
 }
 
 .content{
     border-color: black;
+    background-color: rgb(176, 123, 80);
     border-width: 2px;
     border-style: solid;
     margin-top: -2px;
     margin-bottom: -2px;
 }
 
+.contentText{
+    text-align: left;
+    margin-left: 20px;
+}
+
 .footer{
     border-color: black;
+    background-color: white;
     border-width: 2px;
     border-style: solid;
+    text-align: left;
+}
+
+.footerText{
+    text-align: left;
+    margin-left: 20px;
 }
