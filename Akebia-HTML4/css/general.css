@@ -18,7 +18,7 @@ body{
     margin-right: 10%;
 }
 
-#contenedorH {
+#contenedor {
     display: table;
     width: 98%;
     text-align: center;
@@ -27,7 +27,7 @@ body{
     margin-bottom: 1%;
 }
 
-#contenidosH {
+#contenidos {
     display: table-row;
 }
 
@@ -63,23 +63,97 @@ body{
 #btnAniadir, #btnEliminar, #btnBuscar{
     background-color: transparent;
     border-color: transparent;
+    text-decoration: none;
+}
+
+#btnRegistrarse, #btnIniciarSesion{
+    background-color: transparent;
+    border-color: transparent;
+    font-size: 17px;
+    font-family: 'Times New Roman';
+    position: relative;
+    top: -7px;
+}
+
+#btnRegistrarse a{
+    text-decoration: none;
+    color: black;
+}
+
+#btnIniciarSesion a{
+    text-decoration: none;
+    color: black;
+}
+
+#btnRegistrarse2, #btnIniciarSesion2{
+    background-color: transparent;
+    border-color: transparent;
+    font-size: 17px;
+    font-family: 'Times New Roman';
+    position: relative;
+}
+
+#btnRegistrarse2 a{
+    text-decoration: none;
+    color: black;
+}
+
+#btnIniciarSesion2 a{
+    text-decoration: none;
+    color: black;
 }
 
 .content{
     border-color: black;
-    background-color: rgb(176, 123, 80);
+    background-image: url("../Documents/corcho.jpg");
+    background-color: rgb(190, 134, 88);
+    background-position-x:center;
+    background-position-y:center;
+    background-size: 100%;
     border-width: 2px;
     border-style: solid;
     margin-top: -2px;
     margin-bottom: -2px;
     margin-left: 10%;
     margin-right: 10%;
-    height: 800px;
+    height: 1200px;
 }
 
 .contentText{
-    text-align: left;
-    margin-left: 20px;
+    display: table;
+    width: 98%;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+#columnaC1{
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    padding-top: 5%;
+}
+
+#columnaC2{
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    padding-top: 5%;
+}
+
+#columnaC3 {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    padding-top: 5%;
+}
+
+.mapa{
+    vertical-align: middle;
+    text-align: center;
+    align-items: center;
+    padding-top: 5%;
 }
 
 .footer{
@@ -95,4 +169,26 @@ body{
 .footerText{
     text-align: left;
     margin-left: 20px;
+}
+
+#btnContactanos{
+    background-color: transparent;
+    border-color: transparent;
+    font-size: 17px;
+    font-family: 'Times New Roman';
+}
+
+#btnContactanos a{
+    text-decoration: none;
+    color: black;
+}
+
+.supermercados{
+    font-size: 250%;
+    font-family: 'Comic-Sans';
+    position: relative;
+}
+
+.papel{
+    width: 50%
 }
