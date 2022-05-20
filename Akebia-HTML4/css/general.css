@@ -29,6 +29,7 @@ body{
 
 #contenidos {
     display: table-row;
+    text-align: center;
 }
 
 #columna1{
@@ -149,11 +150,30 @@ body{
     padding-top: 5%;
 }
 
+.supermercados{
+    font-size: 250%;
+    font-family: "Roboto", sans-serif;
+    margin-top: 5%;
+}
+
+#columnaM2{
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    width: 10%;
+    background-image: url("../Documents/papel.png");
+    background-position-x:center;
+    background-position-y:center;
+    background-size: 40%;
+    margin-right: 25%;
+    margin-left: 25%;
+}
+
 .mapa{
     vertical-align: middle;
     text-align: center;
     align-items: center;
-    padding-top: 5%;
+    margin-top: 5%;
 }
 
 .footer{
@@ -183,12 +203,75 @@ body{
     color: black;
 }
 
-.supermercados{
-    font-size: 250%;
-    font-family: 'Comic-Sans';
-    position: relative;
+.contentTextForm{
+    width: 30%;
+    height: 55%;
+    text-align: center;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    background-image: url("../Documents/postit.png");
+    background-position-x:center;
+    background-position-y:center;
+    background-size: 100%;
+    margin-left: 30%;
+    margin-right: 90%;
 }
 
-.papel{
-    width: 50%
+.login-page {
+    width: 360px;
+    padding: 8% 0 0;
+    margin: auto;
+}
+
+.form {
+    max-width: 360px;
+    text-align: center;
+    margin-top: 45%;
+}
+
+.form input {
+    font-family: "Roboto", sans-serif;
+    outline: 0;
+    background: #f2f2f2;
+    width: 100%;
+    border: 0;
+    margin: 0 0 15px;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+.form button {
+    font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+    outline: 0;
+    background: rgb(73, 72, 72);
+    width: 100%;
+    border: 0;
+    padding: 15px;
+    color: #FFFFFF;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.form button a{
+    text-decoration: none;
+    color: white;
+}
+
+.form button:hover,.form button:active,.form button:focus {
+    background: rgb(121, 118, 118);
+}
+
+.form .message {
+    font-family: "Roboto", sans-serif;
+    margin: 15px 0 0;
+    color: #000000;
+    font-size: 15px;
+}
+
+.form .message a {
+    font-family: "Roboto", sans-serif;
+    color: #4CAF50;
+    text-decoration: none;
 }
