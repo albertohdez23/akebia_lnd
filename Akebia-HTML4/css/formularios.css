@@ -61,49 +61,6 @@ body{
     width: 33%;
 }
 
-#btnAniadir, #btnEliminar, #btnBuscar{
-    background-color: transparent;
-    border-color: transparent;
-    text-decoration: none;
-}
-
-#btnRegistrarse, #btnIniciarSesion{
-    background-color: transparent;
-    border-color: transparent;
-    font-size: 17px;
-    font-family: 'Times New Roman';
-    position: relative;
-    top: -7px;
-}
-
-#btnRegistrarse a{
-    text-decoration: none;
-    color: black;
-}
-
-#btnIniciarSesion a{
-    text-decoration: none;
-    color: black;
-}
-
-#btnRegistrarse2, #btnIniciarSesion2{
-    background-color: transparent;
-    border-color: transparent;
-    font-size: 17px;
-    font-family: 'Times New Roman';
-    position: relative;
-}
-
-#btnRegistrarse2 a{
-    text-decoration: none;
-    color: black;
-}
-
-#btnIniciarSesion2 a{
-    text-decoration: none;
-    color: black;
-}
-
 .content{
     border-color: black;
     background-image: url("../Documents/corcho.jpg");
@@ -117,104 +74,22 @@ body{
     margin-bottom: -2px;
     margin-left: 10%;
     margin-right: 10%;
-    height: 1200px;
-}
-
-.contentText{
-    display: table;
-    width: 98%;
-    text-align: center;
-    margin: 0 auto;
-    margin-top: 1%;
-    margin-bottom: 1%;
-}
-
-#columnaC1{
-    display: table-cell;
-    vertical-align: middle;
-    text-align: center;
-    padding-top: 5%;
-}
-
-#columnaC2{
-    display: table-cell;
-    vertical-align: middle;
-    text-align: center;
-    padding-top: 5%;
-}
-
-#columnaC3 {
-    display: table-cell;
-    vertical-align: middle;
-    text-align: center;
-    padding-top: 5%;
-}
-
-.supermercados{
-    font-size: 250%;
-    font-family: "Roboto", sans-serif;
-    margin-top: 5%;
-}
-
-#columnaM2{
-    display: table-cell;
-    vertical-align: middle;
-    text-align: center;
-    width: 10%;
-    background-image: url("../Documents/papel.png");
-    background-position-x:center;
-    background-position-y:center;
-    background-size: 40%;
-    margin-right: 25%;
-    margin-left: 25%;
-}
-
-.mapa{
-    vertical-align: middle;
-    text-align: center;
-    align-items: center;
-    margin-top: 5%;
-}
-
-.footer{
-    border-color: black;
-    background-color: white;
-    border-width: 2px;
-    border-style: solid;
-    text-align: center;
-    margin-left: 10%;
-    margin-right: 10%;
-}
-
-.footerText{
-    text-align: left;
-    margin-left: 20px;
-}
-
-#btnContactanos{
-    background-color: transparent;
-    border-color: transparent;
-    font-size: 17px;
-    font-family: 'Times New Roman';
-}
-
-#btnContactanos a{
-    text-decoration: none;
-    color: black;
+    height: 900px;
 }
 
 .contentTextForm{
     width: 30%;
-    height: 55%;
+    height: 60%;
     text-align: center;
     margin-top: 10%;
     margin-bottom: 10%;
     background-image: url("../Documents/postit.png");
+    background-repeat: no-repeat;
     background-position-x:center;
     background-position-y:center;
-    background-size: 100%;
-    margin-left: 30%;
-    margin-right: 90%;
+    background-size: 110%;
+    margin-left: 36%;
+    margin-right: 36%;
 }
 
 .login-page {
@@ -226,7 +101,7 @@ body{
 .form {
     max-width: 360px;
     text-align: center;
-    margin-top: 45%;
+    margin-top: 35%;
 }
 
 .form input {
@@ -274,4 +149,31 @@ body{
     font-family: "Roboto", sans-serif;
     color: #4CAF50;
     text-decoration: none;
+}
+
+.footer{
+    border-color: black;
+    background-color: white;
+    border-width: 2px;
+    border-style: solid;
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.footerText{
+    text-align: left;
+    margin-left: 20px;
+}
+
+#btnContactanos{
+    background-color: transparent;
+    border-color: transparent;
+    font-size: 17px;
+    font-family: 'Times New Roman';
+}
+
+#btnContactanos a{
+    text-decoration: none;
+    color: black;
 }
