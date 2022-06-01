@@ -18,6 +18,19 @@ header{
     margin-right: 10%;
 }
 
+.logo{
+    width: 57px;
+    height: 57px;
+}
+
+.cesta{
+    width: 50px;
+}
+
+.btnAction{
+    width: 30px;
+}
+
 .contenedor {
     display: table;
     width: 98%;
@@ -61,7 +74,7 @@ header{
     width: 33%;
 }
 
-.content{
+section{
     border-color: black;
     background-image: url("../Documents/corcho.jpg");
     background-color: rgb(190, 134, 88);
@@ -79,7 +92,7 @@ header{
 
 .contentTextForm{
     width: 30%;
-    height: 60%;
+    height: auto;
     text-align: center;
     margin-top: 10%;
     margin-bottom: 10%;
@@ -87,15 +100,19 @@ header{
     background-repeat: no-repeat;
     background-position-x:center;
     background-position-y:center;
-    background-size: 110%;
+    background-size: 100%;
     margin-left: 36%;
     margin-right: 36%;
 }
 
 .login-page {
-    width: 360px;
-    padding: 8% 0 0;
-    margin: auto;
+    width: auto;
+    height: auto;
+    text-align: center;
+    padding-top: 20%;
+    padding-bottom: 50%;
+    padding-left: 5%;
+    padding-right: 5%;
 }
 
 .form {
@@ -142,7 +159,7 @@ header{
     font-family: "Roboto", sans-serif;
     margin: 15px 0 0;
     color: #000000;
-    font-size: 15px;
+    font-size: 80%;
 }
 
 .form .message a {
@@ -176,4 +193,172 @@ footer{
 #btnContactanos a{
     text-decoration: none;
     color: black;
+}
+
+@media screen and (max-width:1000px) {
+    body{
+        font-size: 12px;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    header{
+        margin-left: 0%;
+        margin-right: 0%;
+    }
+
+    section{
+        margin-left: 0%;
+        margin-right: 0%;
+        height: 83%;
+    }
+
+    footer{
+        margin-left: 0%;
+        margin-right: 0%;
+    }
+}
+
+@media screen and (max-width:750px) {
+    body{
+        font-size: 12px;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    header{
+        margin-left: 0%;
+        margin-right: 0%;
+    }
+
+    section{
+        margin-left: 0%;
+        margin-right: 0%;
+        height: 83%;
+    }
+
+    footer{
+        margin-left: 0%;
+        margin-right: 0%;
+    }
+
+    .logo{
+        width: 40px;
+        height: 40px;
+    }
+
+    .cesta{
+        width: 33px;
+    }
+
+    .btnAction{
+        width: 10px;
+    }
+
+    #btnContactanos{
+        font-size: 12px;
+    }
+
+    .contentText{
+        display: grid;
+        width: 98%;
+    }
+    
+    .contenidos2 {
+        display: grid;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width:500px) {
+    body{
+        font-size: 12px;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    header{
+        margin-left: 0%;
+        margin-right: 0%;
+    }
+
+    .logo{
+        width: 40px;
+        height: 40px;
+    }
+
+    .cesta{
+        width: 33px;
+    }
+
+    .btnAction{
+        width: 10px;
+    }
+
+    section{
+        margin-left: 0%;
+        margin-right: 0%;
+        height: 83%;
+    }
+
+    .contentTextForm{
+        width: 80%;
+        height: 60%;
+        margin-top: 10%;
+        margin-bottom: 10%;
+        background-size: 110%;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    
+    .login-page {
+        width: 80%;
+        height: 90%;
+        text-align: center;
+        padding-left: 10%;
+        padding-right: 10%;
+        padding-top: 10%;
+        padding-bottom: 10%;
+    }
+    
+    .form {
+        max-width: 360px;
+        text-align: center;
+        margin-top: 20%;
+        margin-bottom: 20%;
+    }
+    
+    .form input {
+        font-family: "Roboto", sans-serif;
+        outline: 0;
+        background: #f2f2f2;
+        width: 100%;
+        border: 0;
+        margin: 0 0 15px;
+        padding: 15px;
+        box-sizing: border-box;
+        font-size: 14px;
+    }
+    
+    .form button {
+        font-family: "Roboto", sans-serif;
+        text-transform: uppercase;
+        outline: 0;
+        background: rgb(73, 72, 72);
+        width: 100%;
+        border: 0;
+        padding: 15px;
+        color: #FFFFFF;
+        font-size: 14px;
+        cursor: pointer;
+    }
+
+    footer{
+        margin-left: 0%;
+        margin-right: 0%;
+    }
+
+    #btnContactanos{
+        font-size: 12px;
+    }
 }

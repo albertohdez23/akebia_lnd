@@ -18,6 +18,19 @@ header{
     margin-right: 10%;
 }
 
+.logo{
+    width: 57px;
+    height: 57px;
+}
+
+.cesta{
+    width: 50px;
+}
+
+.btnAction{
+    width: 30px;
+}
+
 .contenedor {
     display: table;
     width: 98%;
@@ -86,7 +99,7 @@ header{
     color: black;
 }
 
-.content{
+section{
     border-color: black;
     background-image: url("../Documents/corcho.jpg");
     background-color: rgb(190, 134, 88);
@@ -136,6 +149,7 @@ header{
     text-align: center;
     align-items: center;
     margin-top: 5%;
+    width: 80%;
 }
 
 footer{
@@ -163,4 +177,166 @@ footer{
 #btnContactanos a{
     text-decoration: none;
     color: black;
+}
+
+@media screen and (max-width:1000px) {
+    section{
+        height: 100%;
+    }
+
+    .contentText{
+        display: grid;
+        width: 98%;
+    }
+    
+    .contenidos2 {
+        display: grid;
+        text-align: center;
+    }
+
+    .supermercados{
+        font-size: 150%;
+    }
+}
+
+@media screen and (max-width:750px) {
+    body{
+        font-size: 12px;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    header{
+        margin-left: 0%;
+        margin-right: 0%;
+    }
+
+    section{
+        margin-left: 0%;
+        margin-right: 0%;
+        height: 83%;
+    }
+
+    .supermercados{
+        font-size: 200%;
+    }
+
+    footer{
+        margin-left: 0%;
+        margin-right: 0%;
+    }
+
+    .logo{
+        width: 40px;
+        height: 40px;
+    }
+
+    .cesta{
+        width: 33px;
+    }
+
+    .btnAction{
+        width: 10px;
+    }
+
+    #btnContactanos{
+        font-size: 12px;
+    }
+
+    #btnAniadir, #btnEliminar, #btnBuscar{
+        background-color: transparent;
+        border-color: transparent;
+        text-decoration: none;
+        width: 15px;
+    }
+
+    #btnRegistrarse, #btnIniciarSesion{
+        background-color: transparent;
+        border-color: transparent;
+        font-size: 12px;
+        font-family: 'Times New Roman';
+        position: relative;
+        top: -7px;
+    }
+
+    .contentText{
+        display: grid;
+        width: 98%;
+    }
+    
+    .contenidos2 {
+        display: grid;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width:500px) {
+    body{
+        font-size: 12px;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    header{
+        margin-left: 0%;
+        margin-right: 0%;
+    }
+
+    section{
+        margin-left: 0%;
+        margin-right: 0%;
+        height: 83%;
+    }
+
+    .supermercados{
+        font-size: 150%;
+    }
+
+    footer{
+        margin-left: 0%;
+        margin-right: 0%;
+    }
+
+    .logo{
+        width: 40px;
+        height: 40px;
+    }
+
+    .cesta{
+        width: 33px;
+    }
+
+    .btnAction{
+        width: 10px;
+    }
+
+    #btnContactanos{
+        font-size: 12px;
+    }
+
+    #btnAniadir, #btnEliminar, #btnBuscar{
+        background-color: transparent;
+        border-color: transparent;
+        text-decoration: none;
+        width: 15px;
+    }
+
+    #btnRegistrarse, #btnIniciarSesion{
+        background-color: transparent;
+        border-color: transparent;
+        font-size: 12px;
+        font-family: 'Times New Roman';
+        position: relative;
+        top: -7px;
+    }
+
+    .contentText{
+        display: grid;
+        width: 98%;
+    }
+    
+    .contenidos2 {
+        display: grid;
+        text-align: center;
+    }
 }
