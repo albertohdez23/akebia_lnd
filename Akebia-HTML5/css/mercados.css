@@ -112,7 +112,7 @@ section{
     margin-bottom: -2px;
     margin-left: 10%;
     margin-right: 10%;
-    height: 1100px;
+    height: auto;
 }
 
 .contentText{
@@ -150,6 +150,7 @@ section{
     align-items: center;
     margin-top: 5%;
     width: 80%;
+    margin-bottom: 5%;
 }
 
 footer{

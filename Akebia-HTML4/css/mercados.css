@@ -99,7 +99,7 @@ body{
     margin-bottom: -2px;
     margin-left: 10%;
     margin-right: 10%;
-    height: 1100px;
+    height: auto;
 }
 
 .contentText{
@@ -125,6 +125,7 @@ body{
     background-image: url("../Documents/papel.png");
     background-position-x:center;
     background-position-y:center;
+    background-repeat: repeat-x;
     background-size: 40%;
     margin-right: 25%;
     margin-left: 25%;
@@ -135,6 +136,8 @@ body{
     text-align: center;
     align-items: center;
     margin-top: 5%;
+    width: 80%;
+    margin-bottom: 5%;
 }
 
 .footer{
